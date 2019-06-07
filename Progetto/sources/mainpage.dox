@@ -1,0 +1,34 @@
+/**
+  @mainpage Management of boards production
+
+  @details Components informations
+        @details components_info.h
+        @details components_info.c
+
+  @details Boards informations
+        @details boards.h
+        @details boards.c
+
+  @details Produced boards
+        @details done_boards.h
+        @details done_boards.c
+
+  @details Warehouse
+        @details warehouse_and_shopping_cart.h
+        @details warehouse_and_shopping_cart.c
+
+  @details Shopping cart
+        @details warehouse_and_shopping_cart.h
+        @details warehouse_and_shopping_cart.c
+
+  @details Orders
+        @details orders.h
+        @details orders.c
+
+  @details Utility functions
+        @details utility.h
+        @details utility.c
+
+  @details Main
+        @details main.c
+*/

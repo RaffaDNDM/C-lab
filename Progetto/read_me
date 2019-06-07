@@ -1,0 +1,62 @@
+cd sources
+gcc -O2 -o main main.c components_info.c boards.c done_boards.c orders.c utility.c warehouse_and_shopping_cart.c
+
+
+#esegue tutti gli ordini
+./main 1000
+
+
+#non esegue tutti gli ordini
+./main 100
+
+
+#non esegue alcun ordine
+./main 10
+
+
+#esempio di esecuzione (./main 100)
+############################################
+#              month 6                     #
+############################################
+              WAREHOUSE
+id              nome             quantity 
+############################################
+123           resistor               0
+358           capacitor              0
+548           inductor               0
+232           led                    0
+222           diod                   0
+234           nmos                   0
+235           pmos                   0
+578           npn                    0
+757           pnp                    0
+890           fgmos                  0
+############################################
+            SHOPPING CART
+id              nome             quantity 
+############################################
+123           resistor               0
+358           capacitor              0
+548           inductor               0
+232           led                    0
+222           diod                   0
+234           nmos                   0
+235           pmos                   0
+578           npn                    0
+757           pnp                    0
+890           fgmos                  0
+############################################
+             BOARDS
+  board_name          quantity
+############################################
+    board1               4
+    board2               0
+    board3               0
+    board4               0
+############################################
+You could complete the order of month 0 composed of 35 board2 with more 2 months
+############################################
+############################################
+Thanks for the use of this app
+############################################
+

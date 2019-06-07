@@ -1,0 +1,11 @@
+5.00 10.00 15.00
+123 resistor 1
+358 capacitor 1
+548 inductor 1
+232 led 2
+222 diod 2
+234 nmos 3
+235 pmos 3
+578 npn 4
+757 pnp 4
+890 fgmos 5
